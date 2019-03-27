@@ -1,0 +1,53 @@
+apiVersion: v1
+entries:
+  efk:
+  - appVersion: 6.4.2
+    created: 2019-03-27T13:27:15.21402028+02:00
+    description: EFK stack
+    digest: e30ea81d1008e6c99b4f1e0330a9798428b24f664d90d799af5331dc36e4beaa
+    home: https://akomljen.com/get-kubernetes-logs-with-efk-stack-in-5-minutes/
+    keywords:
+    - elasticsearch
+    - kibana
+    - fluent-bit
+    maintainers:
+    - email: alen.komljen@live.com
+      name: komljen
+    name: efk
+    urls:
+    - charts/efk-0.3.0.tgz
+    version: 0.3.0
+  elasticsearch-operator:
+  - apiVersion: v1
+    appVersion: 0.3.0
+    created: 2019-03-27T13:27:15.214301961+02:00
+    description: A Helm chart for Elasticsearch operator
+    digest: 4d2d547f8dd03d2f630eaee8e0789f9ef2e4c493b0b8e47757a57ed5ac3a6180
+    maintainers:
+    - email: alen.komljen@live.com
+      name: komljen
+      url: https://akomljen.com
+    name: elasticsearch-operator
+    sources:
+    - https://github.com/upmc-enterprises/elasticsearch-operator
+    urls:
+    - charts/elasticsearch-operator-0.1.6.tgz
+    version: 0.1.6
+  kube-efk:
+  - appVersion: 6.4.2
+    created: 2019-03-27T13:27:15.212791563+02:00
+    description: EFK stack for Kubernetes
+    digest: 3ee4f374acc2eb3239a8ef90a14fcc1bc94a4b4ffcc3af4021c825fb2b594428
+    home: https://github.com/vutny/kube-efk
+    keywords:
+    - elasticsearch
+    - fluent-bit
+    - kibana
+    maintainers:
+    - email: denys.gavrysh@gmail.com
+      name: vutny
+    name: kube-efk
+    urls:
+    - kube-efk-0.1.0.tgz
+    version: 0.1.0
+generated: 2019-03-27T13:27:15.211136645+02:00

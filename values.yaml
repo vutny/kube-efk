@@ -1,0 +1,8 @@
+# Default values for efk.
+
+efk:
+  fluent-bit:
+    backend:
+      es:
+        # Workaround duplicate @timestamp field in ElasticSearch index
+        time_key: '@ts'
