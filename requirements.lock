@@ -1,0 +1,9 @@
+dependencies:
+- name: elasticsearch-operator
+  repository: https://raw.githubusercontent.com/komljen/helm-charts/master/charts/
+  version: 0.1.6
+- name: efk
+  repository: https://raw.githubusercontent.com/komljen/helm-charts/master/charts/
+  version: 0.3.0
+digest: sha256:c33eef7ef0fb2c548716fdb21eac9248c7bfdc7704b83fd161d4a291d16955a6
+generated: 2019-03-26T15:59:09.265391729+02:00
